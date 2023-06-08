@@ -1,7 +1,7 @@
 # R2 Registry Image
 
 This repository contains the Dockerfile and Kustomize resources to deploy a private
-docker registry on kubernetes with Cloudflare R2 as it's backing storage.
+docker registry on kubernetes with Cloudflare R2 as its backing storage.
 
 # Setup
 
