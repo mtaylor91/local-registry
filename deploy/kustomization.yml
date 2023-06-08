@@ -1,0 +1,9 @@
+commonLabels:
+  app: registry
+  service: images
+namespace: registry
+resources:
+- namespace.yml
+- deployment.yml
+- service.yml
+- virtualservice.yml

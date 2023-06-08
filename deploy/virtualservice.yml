@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: images
+spec:
+  gateways:
+  - istio-gateways/home-mtaylor-io
+  hosts:
+  - images.home.mtaylor.io
+  http:
+  - name: images-routes
+    route:
+    - destination:
+        host: images.registry.svc.cluster.local
+        port:
+          number: 80
