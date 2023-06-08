@@ -10,8 +10,6 @@ spec:
         image: docker.io/mtaylor91/registry:latest
         imagePullPolicy: Always
         env:
-        - name: REGISTRY_LOG_LEVEL
-          value: debug
         - name: REGISTRY_STORAGE_S3_ACCESSKEY
           valueFrom:
             secretKeyRef:
