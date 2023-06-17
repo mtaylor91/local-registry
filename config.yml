@@ -5,9 +5,8 @@ log:
 storage:
   cache:
     blobdescriptor: inmemory
-  s3:
-    encrypt: false
-    forcepathstyle: true
+  filesystem:
+    rootdirectory: /data
 http:
   addr: :5000
   debug:
