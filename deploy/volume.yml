@@ -8,5 +8,4 @@ spec:
   resources:
     requests:
       storage: 256Gi
-  storageClassName: openebs-lvm-ssdstore
   volumeMode: Filesystem
